@@ -33,32 +33,31 @@ For my analysis I examined hospital admissions data provided by the New York Dep
 
 
 ## Exploratory Analysis
-After doing all of the necessary data wrangling and cleaning, we took a look at the breakdown of emotion classifications in our data. 
-![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/b811d60b-ffbe-440d-90a6-0d10bc9a13cd)
-We can tell from the above visualization that our "target" feature is highly variable. We take this into account when preparing our model by using "SMOTE" to balance our target features.
+After doing all of the necessary data wrangling and cleaning, I took a look at the breakdown of the target feature "Total Charges" across different groups.
 
-Additionally, due to the low sample, and the small intrinsic value, we drop the "I can't tell" tweets from our data so we are only focusing on the "positive", "negative" and "no emotion" classifications.
+## Distribution of Total Charges
 
+## Total Charges by Hospital Service Area
 
-## Breakdown of Products Tweeted About by Count
-![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/8823cabd-2177-4e1a-83b2-5162eebb121e)
+## Total Charges by County
 
+## Total Charges by Age Group
 
-## Consumer Tweets by Product and Sentiment
-![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/219cb95d-b734-410f-98ed-5c07f3d3b379)
+## Total Charges by Diagnosis
 
+## Total Charges by Length of Stay
 
+## Total Charges by Risk of Mortality
 
-## Exploring Vocabulary between Positive and Negative Tweets
+## Total Charges by Type of Admission
 
-### WordCloud of Vocabulary from Negative Tweets
-![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/8df05da3-9bbb-4629-a065-2b28cba70a1a)
-
+## Rough Correlations with Total Charges
 
 
-### WordCloud of Vocabulary from Positive Tweets
-![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/c0ab03f3-d335-43ab-be49-3646bfcb92a4)
-
+Some insights from this analysis:
+<li> Total Charges are skewed so that most are less than $20,000 with the distribution lowering as charges increased. This is also after removing the huge outliers (anything above 3 standard deviations/$80,000). Several charges that were excluded for our purposes were in the millions.</li>
+<li>There is huge variability across most features. Especially when looking at specific codes across different hospitals and service areas.</li>
+<li>The codes are the most highly correlated with Total Charges, however the correlation is difficult to interpret as their numerical value is just a code, rather than a meaningful ordinal relationship. There are additional codes that are included in the analysis that aren't listed here as they will need to be dummy encoded.</li>
 
 
 ## Baseline Model
