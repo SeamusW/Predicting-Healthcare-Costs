@@ -44,11 +44,14 @@ After doing all of the necessary data wrangling and cleaning, I took a look at t
 ## Median Total Charges by County
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/79e54756-08ee-477b-a5a1-e81851676432)
 
-## Median Total Charges by Age Group
-![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/2817d35e-d463-4bd4-a81e-33ce94c4d0b6)
-
 ## Median Total Charges by Diagnosis
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/83f3608a-632c-48ab-aeea-7a4536eeedb5)
+
+## Median Total Charges for Cesarean Delivery in Brooklyn
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/11f7ac9a-9c16-4f62-a5a5-59fd3f5cc73f)
+
+## Median Total Charges by Age Group
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/2817d35e-d463-4bd4-a81e-33ce94c4d0b6)
 
 ## Median Total Charges by Length of Stay
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/05ac77a6-3271-435b-a32b-3fe2e73c6d9d)
