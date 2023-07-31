@@ -57,8 +57,10 @@ After doing all of the necessary data wrangling and cleaning, I took a look at t
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/906f4476-0ff6-407a-b966-47a5cbde3e88)
 
 ## Median Total Charges by Type of Admission
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/98af22a4-b97d-484d-b1e6-949f330b4fc8)
 
 ## Rough Correlations with Total Charges
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/02a5ecaf-fc5d-4cd5-93e5-b1de06f5e775)
 
 
 Some insights from this analysis:
