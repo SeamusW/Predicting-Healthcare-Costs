@@ -22,7 +22,7 @@ From a patient's perspective, the US Healthcare system can often seem like a con
 
 
 ## Business and Data Understanding
-The problem of price ambiguity in US Healthcare has long been a problem. So much so that in January 2021 a federal law was passed, the "Hospital Price Transparency Rule". However, the vast majority of hospitals aren't actually complying with this new rule (https://jamanetwork.com/journals/jama/article-abstract/2792987), and there doesn't seem to be much work on ensuring their compliance.
+The issue of price ambiguity in US Healthcare has long been a problem. So much so that in January 2021 a federal law was passed, the "Hospital Price Transparency Rule". However, the vast majority of hospitals aren't actually complying with this new rule (https://jamanetwork.com/journals/jama/article-abstract/2792987), and there doesn't seem to be much work on ensuring their compliance.
 
 In an effort to provide some meaningful transparency, I sought to create a regression model that can predict uninsured hospital admission costs based on certain features of a hospital visit. The hope is that this information can be used by patients to help guide their healthcare decision-making.
 
