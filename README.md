@@ -104,7 +104,7 @@ Random Forest Regression:
 ## Final Model
 It looks like the Random Forest Model is the best baseline model. However, I wanted to try some dimensionality reduction, due to my really large amount of features. I also wanted to use clustering to create features that might help explain more variance.
 
-After testing different cluster amounts, and running Principal Component Analysis to reduce the amount of features, I settle on the best working model.
+After testing different cluster amounts, and running Principal Component Analysis to reduce the amount of features, I settle on the best working model. R-Square = 82%, MSE = 42843940.78174081
 
 Random Forest Regression with clustering features and PCA:
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/5ecf5793-099f-41a8-a0e1-c89c3a97573f)
