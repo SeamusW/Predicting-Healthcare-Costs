@@ -44,16 +44,19 @@ After doing all of the necessary data wrangling and cleaning, I took a look at t
 ## Median Total Charges by County
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/79e54756-08ee-477b-a5a1-e81851676432)
 
-## Total Charges by Age Group
+## Median Total Charges by Age Group
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/2817d35e-d463-4bd4-a81e-33ce94c4d0b6)
 
-## Total Charges by Diagnosis
+## Median Total Charges by Diagnosis
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/83f3608a-632c-48ab-aeea-7a4536eeedb5)
 
-## Total Charges by Length of Stay
+## Median Total Charges by Length of Stay
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/05ac77a6-3271-435b-a32b-3fe2e73c6d9d)
 
-## Total Charges by Risk of Mortality
+## Median Total Charges by Risk of Mortality
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/906f4476-0ff6-407a-b966-47a5cbde3e88)
 
-## Total Charges by Type of Admission
+## Median Total Charges by Type of Admission
 
 ## Rough Correlations with Total Charges
 
