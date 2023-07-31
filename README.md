@@ -42,9 +42,10 @@ After doing all of the necessary data wrangling and cleaning, I took a look at t
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/4c223cfc-5faf-4ecd-8030-09633d4a77cc)
 
 ## Median Total Charges by County
-![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/24b326b5-d85f-4648-acde-4420f7da837a)
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/79e54756-08ee-477b-a5a1-e81851676432)
 
 ## Total Charges by Age Group
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/2817d35e-d463-4bd4-a81e-33ce94c4d0b6)
 
 ## Total Charges by Diagnosis
 
