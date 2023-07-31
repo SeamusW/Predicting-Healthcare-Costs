@@ -47,6 +47,9 @@ After doing all of the necessary data wrangling and cleaning, I took a look at t
 ## Median Total Charges by Diagnosis
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/83f3608a-632c-48ab-aeea-7a4536eeedb5)
 
+## Median Total Charges for Cesarean Delivery in New York State
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/32f9b61a-278d-4f86-9180-b602b318ac84)
+
 ## Median Total Charges for Cesarean Delivery in Brooklyn
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/11f7ac9a-9c16-4f62-a5a5-59fd3f5cc73f)
 
@@ -72,7 +75,7 @@ After doing all of the necessary data wrangling and cleaning, I took a look at t
 Some insights from this analysis:
 <li> Total Charges are skewed so that most are less than $20,000 with the distribution lowering as charges increase. This is also after removing the huge outliers (anything above 3 standard deviations/$80,000). Several charges that were excluded for our purposes were in the millions.</li>
 
-<li>There is huge variability across features. While you might expect some hospitals to have higher median total charges because of the type of procedures they perform, or the amount of patients they see, when you drill down further and look directly at the exact same procedures, there are still huge differences in charges. For example, a cesarean delivery costs, on average, $20,000 more if it takes place in NYC versus the Finger Lakes region. There are often even bigger discrepencies within local areas. Drilling down even further into Brooklyn alone, there is a $50,000 difference for the same procedure across hospitals .</li>
+<li>There is huge variability across features. While you might expect some hospitals to have higher median total charges because of the type of procedures they perform, or the amount of patients they see, when you drill down further and look directly at the exact same procedures, there are still huge differences in charges. For example, a cesarean delivery costs, on average, $20,000 more if it takes place in NYC versus the Finger Lakes region. There are often even bigger discrepencies within local areas. Drilling down even further into Brooklyn alone, there is a $50,000 difference for the same procedure across hospitals. You can see the same thing for multiple different procedures, an example above provided for asthma treatment in brooklyn</li>
 
 <li>The codes are the most highly correlated with Total Charges, however the correlation is difficult to interpret as their numerical value is just a code, rather than a meaningful ordinal relationship. I need to be thoughtful about how these and other categorical coded features are included in the model.</li>
 
