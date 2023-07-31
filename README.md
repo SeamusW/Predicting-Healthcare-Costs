@@ -36,10 +36,13 @@ For my analysis I examined hospital admissions data provided by the New York Dep
 After doing all of the necessary data wrangling and cleaning, I took a look at the breakdown of the target feature "Total Charges" across different groups.
 
 ## Distribution of Total Charges
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/4483b9ca-ea16-4ced-a0f7-237eda81eef7)
 
-## Total Charges by Hospital Service Area
+## Median Total Charges by Hospital Service Area
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/4c223cfc-5faf-4ecd-8030-09633d4a77cc)
 
-## Total Charges by County
+## Median Total Charges by County
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/24b326b5-d85f-4648-acde-4420f7da837a)
 
 ## Total Charges by Age Group
 
@@ -55,9 +58,9 @@ After doing all of the necessary data wrangling and cleaning, I took a look at t
 
 
 Some insights from this analysis:
-<li> Total Charges are skewed so that most are less than $20,000 with the distribution lowering as charges increased. This is also after removing the huge outliers (anything above 3 standard deviations/$80,000). Several charges that were excluded for our purposes were in the millions.</li>
+<li> Total Charges are skewed so that most are less than $20,000 with the distribution lowering as charges increase. This is also after removing the huge outliers (anything above 3 standard deviations/$80,000). Several charges that were excluded for our purposes were in the millions.</li>
 
-<li>There is huge variability across most features. Especially when looking at specific codes across different hospitals and service areas. For example, a cesarean delivery costs, on average, $20,000 more if it takes place in NYC or on Long Island, versus other parts of the state.</li>
+<li>There is huge variability across features. While you might expect some hospitals to have higher median total charges because of the type of procedures they perform, or the amount of patients they see, when you drill down further and look directly at the exact same procedures, there are still huge differences in charges. For example, a cesarean delivery costs, on average, $20,000 more if it takes place in NYC or on Long Island, versus other parts of the state.</li>
 
 <li>The codes are the most highly correlated with Total Charges, however the correlation is difficult to interpret as their numerical value is just a code, rather than a meaningful ordinal relationship. I need to be thoughtful about how these and other categorical coded features are included in the model.</li>
 
