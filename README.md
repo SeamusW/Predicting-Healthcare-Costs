@@ -63,46 +63,41 @@ Some insights from this analysis:
 
 
 ## Baseline Model
-For our first model, we started with a Random Forest Classifier. We received a training accuracy score of .99 and a test accuracy of .85. For a first model, this looks pretty good!
-![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/6cf47eb6-f41b-4086-bd2a-6d523ffad498)
 
 
-## Logistic Regression Model
-One model that specifically performed slightly better than others on accurately predicting negative tweets was the Logistic Regression Model. It received a training accuracy score of .93 and a test accuracy score of .85.
-![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/20b59df9-82e9-45dc-99db-869ec3803d2e)
+## Intermediate Model
 
 
 ## Final Model
-After testing several different models, the one with the best results was the XGBoost Classifier. It had a training accuracy score of .96 and a test accuracy score of .86. Looking at the difference in scores between this and our initial model, this one seems to be overfitting less, and should perform better on unseen data, which is why it was chosen as the final model. However, if you are more interested in exploring negative feedback about your product, we would recommend using the Logistic Regression Model instead.
-![image](https://github.com/SeamusW/NLP-Tweet-Emotions/assets/32468677/79c466b1-ed12-4d31-ad3b-3d97a566eb49)
-
 
 
 
 ## Recommendations
-<li>Gauge implicit brand favorability using our model
+<li>REC 1
 <ul class="square">
-  <li>Because these are implicit feelings, they have arguably more value than other industry measures on customer satisfaction</li></ul>
-<li>Track sentiment trends
+  <li>Explanation</li></ul>
+<li>REC 2
  <ul class="square">
-   <li>By gathering this information over time, you can use to track trends and make interventions.</li></ul>
-<li>Hone in on consumer critiques in negative tweets
+   <li>Explanation</li></ul>
+<li>REC 3
 <ul class="square">
-  <li> Based one the service recovery paradox, focusing on the negative critiques can turn detractors into promoters</li></ul>
+  <li> Explanation</li></ul>
 
 ## Next Steps
-<li>Generate model based on expanded metrics
-<li>Integrate data from other companies for cross-comparison
-<li>Gather more data
+<li>1
+<li>2
+<li>3
 
 ## Repository Structure
-  <b>data folder</b> This folder houses the .csv files we used to create these analyses.
+  <b>data folder</b> This folder houses the .csv files that were used to create these analyses.
   
-  <b>Twitter Sentiment Analysis - Slide Deck</b> This file is a slide deck covering our analysis.
+  <b>Predicting Uninsured Healthcare Costs - Slide Deck</b> This file is a slide deck covering the analysis.
 
-  <b>EDA, Processing and Feature Engineering - Twitter Sentiment Analysis Project</b> This file contains our data wrangling and exploratory analysis.
+  <b>Data Cleaning and EDA</b> This file contains the data wrangling and exploratory analysis.
 
-  <b>Data Modeling and Final Analysis</b> This file contains all of our models and analysis.
+  <b>Exploring Different Models</b> This file contains all of the preliminary models and analysis.
+
+  <b>Final Model</b> This file contains the final working model.
   
   
   <b>README.md</b> This is the file you are reading now that gives an overview of our project.
