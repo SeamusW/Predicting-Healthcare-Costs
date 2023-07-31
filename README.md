@@ -81,10 +81,13 @@ Some insights from this analysis:
 
 
 ## Baseline Model
+I first ran a simple linear regression, but because linear regression allows predicted values below 0, it really isn't the appropriate model (giving me a nonsensical r-square of -6.840362941284886e+19.
 
+Because I needed my predicted values to always be above 0 (there are no negative charges), I next tried a Poisson Regression. It looks too good to be true, with a pseudo r-square of exactly 1.0 telling me that I am definitely overfitting.
+![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/37251099-9722-4219-bd3c-e0cb34392317)
 
 ## Intermediate Model
-
+Next I tried Ridge and Lasso Regression models to try and prevent overfitting. Getting similar scores for each: R-Square ~ 82%, MSE = 49,799,661
 
 ## Final Model
 
