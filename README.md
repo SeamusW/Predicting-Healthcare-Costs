@@ -118,7 +118,6 @@ Random Forest Regression with clustering features and PCA:
 
 
 ## Repository Structure
-  <b>data folder</b> This folder houses the .csv files that were used to create these analyses.
   
   <b>Predicting Hospital Admissions Costs - Slide Deck</b> This file is a slide deck covering the analysis.
 
@@ -127,6 +126,5 @@ Random Forest Regression with clustering features and PCA:
   <b>Exploring Different Models</b> This file contains all of the preliminary models and analysis.
 
   <b>Final Model</b> This file contains the final working model.
-  
   
   <b>README.md</b> This is the file you are reading now that gives an overview of our project.
