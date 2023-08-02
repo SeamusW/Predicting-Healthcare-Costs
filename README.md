@@ -20,7 +20,7 @@ From a patient's perspective, the US Healthcare system can often seem like a con
  
 <a href="https://github.com/SeamusW/Predicting-Healthcare-Costs/blob/main/Predicting%20Hospital%20Admission%20Costs.pdf">Project Slide Deck</a>
 
-<a href="">Data Source: NYS DOH</a>
+<a href="https://health.data.ny.gov/">Data Source: NYS DOH</a>
 
 
 ## Business and Data Understanding
