@@ -110,27 +110,15 @@ Random Forest Regression with clustering features and PCA:
 ![image](https://github.com/SeamusW/Predicting-Healthcare-Costs/assets/32468677/5ecf5793-099f-41a8-a0e1-c89c3a97573f)
 
 
-
-## Recommendations
-<li>REC 1
-<ul class="square">
-  <li>Explanation</li></ul>
-<li>REC 2
- <ul class="square">
-   <li>Explanation</li></ul>
-<li>REC 3
-<ul class="square">
-  <li> Explanation</li></ul>
-
 ## Next Steps
-<li>1
-<li>2
-<li>3
+<li> Refine the model with more data, and more patient specific features
+<li> Develop patient facing app that can be used to predict and compare costs across hospital systems
+
 
 ## Repository Structure
   <b>data folder</b> This folder houses the .csv files that were used to create these analyses.
   
-  <b>Predicting Uninsured Healthcare Costs - Slide Deck</b> This file is a slide deck covering the analysis.
+  <b>Predicting Hospital Admissions Costs - Slide Deck</b> This file is a slide deck covering the analysis.
 
   <b>Data Cleaning and EDA</b> This file contains the data wrangling and exploratory analysis.
 
