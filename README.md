@@ -12,13 +12,15 @@ From a patient's perspective, the US Healthcare system can often seem like a con
 
 
 ## Project and Data Links
-<a href="https://github.com/SeamusW/NLP-Tweet-Emotions/blob/main/Modeling%20and%20Final%20Analysis.ipynb">Modeling and Final Analysis</a>
+<a href="https://github.com/SeamusW/Predicting-Healthcare-Costs/blob/main/Final%20Model%20SW.ipynb">Modeling and Final Analysis</a>
 
-<a href="https://github.com/SeamusW/NLP-Tweet-Emotions/blob/main/EDA%2C%20Processing%2C%20and%20Feature%20Engineering%20-%20Twitter%20Sentiment%20Analysis%20Project.ipynb">EDA and Data Preparation</a>
+<a href="https://github.com/SeamusW/Predicting-Healthcare-Costs/blob/main/Exploring%20Different%20Models%20SW.ipynb"> Exploring Different Models</a>
+
+<a href="https://github.com/SeamusW/Predicting-Healthcare-Costs/blob/main/Data%20Cleaning%20and%20EDA%20SW.ipynb">EDA and Data Preparation</a>
  
-<a href="https://github.com/SeamusW/Twitter-Sentiment-Analysis-using-NLP/blob/main/Twitter%20Sentiment%20Analysis%20Slide%20Deck%20-%20July%202023.pdf">Project Slide Deck</a>
+<a href="https://github.com/SeamusW/Predicting-Healthcare-Costs/blob/main/Predicting%20Hospital%20Admission%20Costs.pdf">Project Slide Deck</a>
 
-<a href="https://data.world/crowdflower/brands-and-product-emotions">Data Source: DataWorld.com</a>
+<a href="">Data Source: NYS DOH</a>
 
 
 ## Business and Data Understanding
